@@ -1,4 +1,4 @@
-import network
+import small_world
 import voting
 import matplotlib.pyplot as plt
 
@@ -12,12 +12,16 @@ for i in range(number_of_voters):
     number.append(i)
 
 #Generating the small world network
-voters_p = network.gen_graph(number_of_voters)
+voters_p = small_world.gen_graph(number_of_voters, 6, 0.5)
 
 #To see the state before voting
 #network.show_graph(voters_p)
 
-
+def print_each_iter(number,pos,neg):
+	plt.plot( number, pos, color="r", label="Party A")
+	plt.plot( number, neg, color="b", label="Party B")
+	plt.legend()
+	plt.show()
 posi = []
 negi = [] 
 neut = []
@@ -26,11 +30,12 @@ count = []
 for j in range (iterations):
 	voters_p,pos,neg,neu=voting.campaining(voters_p)
 	posi.append(pos[number_of_voters-1]) #Keeps track of party A
-	print(pos[number_of_voters-1])
+	#print(pos[number_of_voters-1])
 	negi.append(neg[number_of_voters-1]) #Keeps track of party B
-	print(neg[number_of_voters-1])
+	#print(neg[number_of_voters-1])
 	neut.append(neu[number_of_voters-1]) #Keeps track of Neutral
 	count.append(j)
+	#print_each_iter(number,	pos, neg)
 	
 #To see the state after voting
 #network.show_graph(voters_p)

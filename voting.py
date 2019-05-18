@@ -1,7 +1,8 @@
+import random
 def campaining(voters):
-    list_pos = []
-    list_neg = []
-    list_neu = []
+    list_pos = [] #list for party A
+    list_neg = [] #list for party B
+    list_neu = [] #list for neutral Party
     pos = 0
     neg = 0
     neu = 0
@@ -12,20 +13,26 @@ def campaining(voters):
             v_en=float(voters[j]['endurance'])
             in_en=float(influencer['endurance'])
             in_in=float(influencer['influence'])
+	        
             if v_en>0 and in_en>0:
-                voters[j]['endurance'] = v_en * 1.2
+		    #if the voter and influencer belongs to the same party A
+                voters[j]['endurance'] = v_en+(in_in*random.uniform(0, 0.2))
             elif v_en<0 and in_en<0:
-                voters[j]['endurance'] = v_en * 1.2
+	    	#if the voter and influencer belongs to the same party B
+                voters[j]['endurance'] = v_en-(in_in*random.uniform(0, 0.2))
             elif v_en >0 and in_en<0:
-                voters[j]['endurance'] = v_en - (in_in/10)
+	    	#if voter belongs to A and influencer in B
+               	voters[j]['endurance'] = v_en-(in_in*random.uniform(5, 10))
             elif v_en<0 and in_en>0:
-                voters[j]['endurance'] = -1 * ((-1*v_en) - (in_in/ 10))
-            elif v_en==0 and in_en==0:
-                continue
+	    	#if voter belongs to B and influencer in A
+               	voters[j]['endurance'] = v_en+(in_in*random.uniform(5, 10))
             elif v_en==0 and in_en>0:
                 voters[j]['endurance'] = in_in
             elif v_en==0 and in_en<0:
                 voters[j]['endurance'] = -1 * in_in
+            
+        #    print(j, voters[j]['endurance'])
+        #print('\n')
         pos = 0
         neg = 0
         neu = 0

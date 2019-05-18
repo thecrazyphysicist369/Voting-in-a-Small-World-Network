@@ -6,15 +6,15 @@ vertex = {'index': 0,
           'connected': [],
           }
 
-#vertex generator
+#vertex generator generates each voter with their properties
 def gen_vertex(n):
     ver_list=[]
     c=0
     for i in range(n):
-        vertex = {'index': c,
-                  'endurance': random.randrange(-10, 10),
-                  'influence': random.randint(0, 10),
-                  'connected': [],
+        vertex = {'index': c, 			#the unique index of the voter 
+                  'endurance': random.randrange(-10, 10), #the enduaring power of the voter
+                  'influence': random.randint(5, 10), #the influencing power of the voter
+                  'connected': [], #the small world connections between the voters
                   }
         ver_list.append(vertex)
 
@@ -22,7 +22,7 @@ def gen_vertex(n):
     return ver_list
 
 
-#matrix generator
+#matrix generator generates the connection between the voters
 def mat_gen(n):
     mat = []
     c = 0
@@ -36,8 +36,7 @@ def mat_gen(n):
 
 
 
-
-#the graph generator
+#the graph generator generates the small world in which the voting will take place
 def gen_graph(n):
 
     mat=mat_gen(n)
@@ -52,7 +51,18 @@ def gen_graph(n):
         #print(conlist)
     return verlist
 
+import networkx as nx
+import matplotlib.pyplot as plt
 
-'''    for i in gen_graph(10):
-        print (i,'\n')'''
+#To visualise the generated small world. Also visualises the state of voting of the parties
+def show_graph(ver_list):
+  G = nx.Graph()
+  for i in range(len(ver_list)):
+      G.add_node(i)
 
+  for i in range(len(ver_list)):
+      conlist=ver_list[i]['connected']
+      for j in conlist:
+          G.add_edge(i,j)
+  nx.draw(G)
+  plt.show()
