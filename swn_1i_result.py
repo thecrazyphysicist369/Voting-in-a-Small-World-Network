@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 #The number of voters to campaign
 number_of_voters = int(input("please input the number of voters you want to analyze : "))
 
+#k = int(input("\nInput the k nearest neighbors : "))
+
+p = float(input("enter the probablity of the node connection : "))
 
 #Generating a list of numbers
 number=[]
@@ -12,7 +15,7 @@ for i in range(number_of_voters):
     number.append(i)
 
 #generating the small world
-voters_p = small_world.gen_graph(number_of_voters, 6, 0.5)
+voters_p = small_world.gen_graph(number_of_voters, 6, p)
 
 #status before the vote
 #network.show_graph(voters_pre)
