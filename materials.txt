@@ -1,5 +1,0 @@
-https://www.kaggle.com/bitandatom/social-network-fake-account-dataset
-https://www.kaggle.com/hwassner/TwitterFriends
-https://www.kaggle.com/huwfulcher/social-cluster-analysis
-https://www.kaggle.com/c/predict-who-is-more-influential-in-a-social-network
-https://snap.stanford.edu/data/
