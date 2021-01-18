@@ -16,7 +16,7 @@ alignment of voters towards a particular party for a longer time as compared to 
 probability. This majority voting model seems to efficiently capture the potential behaviour of voters on small world
 network over a campaigning period.
 
-### Find the full paper * [here](https://link.springer.com/chapter/10.1007/978-981-15-7834-2_31)
+### Find the full paper [here](https://link.springer.com/chapter/10.1007/978-981-15-7834-2_31)
 
 ## Getting Started
 
