@@ -18,17 +18,25 @@ network over a campaigning period.
 
 ### Find the full paper [here](https://link.springer.com/chapter/10.1007/978-981-15-7834-2_31)
 
-## Getting Started
+## The Components
 
 ### Watts-Strogatz Small World Network
 This is a special type of graph, a small world, which depicts the human dynamics of real world in a fundamental level without all the real world abstractions.
 Watts-Strogatz small world network uses 3 variables to define the network.
 
-1. ***Nodes             =  n*** (_The total number of nodes in the Small World_)
-2. **Nearest neighbors = ** ***k*** (_The number of nodes each node is connected to. Also called nearest-neighbors_)
-3. **Probability       = ** ***p*** (_This is the length of connection of the edges_)
+1. ***Nodes              =  n***   _The total number of nodes in the Small World_
+2. ***Nearest neighbors  =  k***   _The number of nodes each node is connected to. Also called nearest-neighbors_
+3. ***Probability        =  p***   _This is the length of connection of the edges_
 
+### Voting Function
 
+#### 1. Linear Voting Function
+
+#### 2. Logarithmic Voting Function
+
+#### 3. Periodic Voting Function
+
+## Executing the Code
 
 ### Prerequisites
 
@@ -40,11 +48,23 @@ matlplotlib
 
 
 
-## Running Election
+### The Election
 
-Explain how to run the automated tests for this system
+Two ways to obtain output 
 
-### Break down into end to end tests
+#### 1. Value Inputs
+
+Explain what these tests test and why
+
+```
+Population : 
+Nearest-Neighbor : 
+Probability : 
+Voting-Function : 
+Iterations : 
+```
+
+#### 2. Slider
 
 Explain what these tests test and why
 
@@ -52,17 +72,34 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+## Results
 
 ```
-Give an example
+Linear Voting
+```
+[P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
+
+```
+Linear Voting
 ```
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
+```
+Linear Voting
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Built With
 
