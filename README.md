@@ -24,7 +24,7 @@ network over a campaigning period.
 This is a special type of graph, a small world, which depicts the human dynamics of real world in a fundamental level without all the real world abstractions.
 Watts-Strogatz small world network uses 3 variables to define the network.
 
-1. **Nodes             = ** ***n*** (_The total number of nodes in the Small World_)
+1. ***Nodes             =  n*** (_The total number of nodes in the Small World_)
 2. **Nearest neighbors = ** ***k*** (_The number of nodes each node is connected to. Also called nearest-neighbors_)
 3. **Probability       = ** ***p*** (_This is the length of connection of the edges_)
 
