@@ -20,33 +20,27 @@ network over a campaigning period.
 
 ## Getting Started
 
+### Watts-Strogatz Small World Network
+This is a special type of graph, a small world, which depicts the human dynamics of real world in a fundamental level without all the real world abstractions.
+Watts-Strogatz small world network uses 3 variables to define the network.
+
+1. **Nodes             = ** ***n*** (_The total number of nodes in the Small World_)
+2. **Nearest neighbors = ** ***k*** (_The number of nodes each node is connected to. Also called nearest-neighbors_)
+3. **Probability       = ** ***p*** (_This is the length of connection of the edges_)
+
+
 
 ### Prerequisites
 
 As this code is in the form of Google Colaboratory Notebook, you can start running the code straight from the browser. But if you're willing to run the code locally, you'd be needing the following packages
 ```
-Give examples
+networkx
+matlplotlib
 ```
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
+## Running Election
 
 Explain how to run the automated tests for this system
 
