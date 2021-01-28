@@ -85,22 +85,25 @@ Give an example
 
 ## Results
 ### Linear Voting
+
 ```
-Linear Voting
+Describing Linear Voting results.
 ```
 ![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
 
+### Logarithmic Voting
 
 ```
-Linear Voting
+Describing Logarithmic Voting resutls.
 ```
-![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
+![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lok5p5.png)
+
+### Periodic Voting
 
 ```
-Linear Voting
+Describing Periodic Voting results.
 ```
-
-![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
+![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Prk5p5.png)
 
 
 
@@ -129,13 +132,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Shaun** - *Implementation and Code* - [The Crazy Physicist](https://twitter.com/thecrzyphysicst)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
