@@ -24,12 +24,28 @@ Watts-Strogatz small world network uses 3 variables to define the network.
 3. ***Probability        =  p***   _This is the length of connection of the edges_
 
 ### Voting Function
+```
+bnew = b + ∑ sign(i)*f(w(i,j))
+```
 
 #### 1. Linear Voting Function
+```
+f ( (w (i, j))  =  w (i, j)
+```
+The modification to an individuals' bias is depended linearly on the influence value of the influencer.
 
 #### 2. Logarithmic Voting Function
+```
+f ( (w (i, j))  =  log (w (i, j))
+```
+The modification to an individuals' bias is dependent logarithmically on the influence value of the influencer.
 
 #### 3. Periodic Voting Function
+```
+f ((w (i, j))  =  sin (w (i, j))
+```
+The modification to an individuals' bias is dependent periodically on the influence value of the influencer.
+
 
 ## Executing the Code
 
@@ -68,6 +84,12 @@ Give an example
 ```
 
 ## Results
+### Linear Voting
+```
+Linear Voting
+```
+![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
+
 
 ```
 Linear Voting
@@ -78,12 +100,7 @@ Linear Voting
 Linear Voting
 ```
 
-
-```
-Linear Voting
-```
-
-
+![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
 
 
 
