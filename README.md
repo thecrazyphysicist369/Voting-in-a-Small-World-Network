@@ -16,6 +16,7 @@ We show via simulation that
 ## The Components
 
 ### Watts-Strogatz Small World Network
+![](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/swn.png)
 This is a special type of graph, a small world, which depicts the human dynamics of real world in a fundamental level without all the real world abstractions.
 Watts-Strogatz small world network uses 3 variables to define the network.
 
@@ -118,9 +119,9 @@ Describing Periodic Voting results.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python-3](https://www.python.org/) - The language.
+* [Networkx](https://matplotlib.org/) - The network generating library.
+* [Matplotlib](https://networkx.org/) - The plotting-visualising library.
 
 ## Contributing
 
@@ -132,7 +133,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Shaun** - *Implementation and Code* - [The Crazy Physicist](https://twitter.com/thecrzyphysicst)
+* **Shaun** - *Implementation and Code* - [Twitter](https://twitter.com/thecrzyphysicst), [Google Scholar](https://scholar.google.com/citations?hl=en&user=mxc8IfcAAAAJ)
+* **Dr. Debayan Ganguly** - *Co-authored* - [The Crazy Physicist](https://twitter.com/thecrzyphysicst)
 
 
 ## Acknowledgments
