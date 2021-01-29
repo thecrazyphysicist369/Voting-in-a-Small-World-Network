@@ -17,6 +17,7 @@ We show via simulation that
 
 ### Watts-Strogatz Small World Network
 ![](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/swn.png)
+
 This is a special type of graph, a small world, which depicts the human dynamics of real world in a fundamental level without all the real world abstractions.
 Watts-Strogatz small world network uses 3 variables to define the network.
 
@@ -26,7 +27,7 @@ Watts-Strogatz small world network uses 3 variables to define the network.
 
 ### Voting Function
 ```
-bnew = b + ∑ sign(i)*f(w(i,j))
+b' = b + ∑ sign(i)*f(w(i,j))
 ```
 
 #### 1. Linear Voting Function
@@ -62,23 +63,25 @@ matlplotlib
 
 ### The Election
 
-Two ways to obtain output 
+There are two ways in which this election can be conducted.
 
 #### 1. Value Inputs
 
-Explain what these tests test and why
+The first one is by inputting values to the queries. This is usually used when users want to execute a large sized simulation and would take a lot of time.
+
 
 ```
-Population : 
-Nearest-Neighbor : 
-Probability : 
-Voting-Function : 
-Iterations : 
+Please enter the following values to run the simulation
+Population : 1,000,000
+Nearest-Neighbor : 5
+Probability : 0.5
+Voting-Function : linear_voting 
+Iterations : 500
 ```
 
 #### 2. Slider
 
-Explain what these tests test and why
+The second one is by using sliders. This is used by the user when quickly comparing two input values and also when the values are not large. This is made to work fast.
 
 ```
 Give an example
@@ -88,7 +91,7 @@ Give an example
 ### Linear Voting
 
 ```
-Describing Linear Voting results.
+
 ```
 ![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
 
@@ -107,38 +110,22 @@ Describing Periodic Voting results.
 ![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Prk5p5.png)
 
 
-
-
-
-
-
-
-
-
-
-
 ## Built With
 
 * [Python-3](https://www.python.org/) - The language.
 * [Networkx](https://matplotlib.org/) - The network generating library.
 * [Matplotlib](https://networkx.org/) - The plotting-visualising library.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
 * **Shaun** - *Implementation and Code* - [Twitter](https://twitter.com/thecrzyphysicst), [Google Scholar](https://scholar.google.com/citations?hl=en&user=mxc8IfcAAAAJ)
-* **Dr. Debayan Ganguly** - *Co-authored* - [The Crazy Physicist](https://twitter.com/thecrzyphysicst)
+* **Ritajit Mojumdar** - *Corresponding Author* - [Google Scholar](https://scholar.google.com/citations?user=eZL1OXcAAAAJ&hl=en)
+
+* **Dr. Kingshuk Chatterjee** - *Co-authored* - [Google Scholar](https://scholar.google.com/citations?user=o-WIpn0AAAAJ&hl=en)
+
+* **Dr. Debayan Ganguly** - *Co-authored* - [Google Scholar](https://scholar.google.com/citations?user=ikohpY4AAAAJ&hl=en)
 
 
 ## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Would write if I had any.
