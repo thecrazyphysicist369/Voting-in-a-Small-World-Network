@@ -13,7 +13,9 @@ _(ii) for periodic voting function, the small scale variations are sharp and osc
 
 _(iii) the degree of the graph does not seem to have a strong influence on the result, and _
 
-_(iv) networks with higher small world probability tend to resist the alignment of voters towards a particular party for a longer time as compared to networks with lower small world probability. This majority voting model seems to efficiently capture the potential behaviour of voters on small world network over a campaigning period._
+_(iv) networks with higher small world probability tend to resist the alignment of voters towards a particular party for a longer time as compared to networks with lower small world probability._
+
+This majority voting model seems to efficiently capture the potential behaviour of voters on small world network over a campaigning period.
 
 ### Find the full paper [here](https://link.springer.com/chapter/10.1007/978-981-15-7834-2_31)
 
