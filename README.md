@@ -36,8 +36,8 @@ Watts-Strogatz small world network uses 3 variables to define the network.
 
 This represents a single individual in the small world network. It is represented by the node of the node(vertex) of the network. The edges defines the connection the individual node has with the other nodes in the network. This individual node is a voter in the real world with few properties that ultimately affects the networks bias. The properties are : 
 
-1. ***Index              =  n***   _The total number of nodes in the Small World_
-2. ***Endurance (Bias)   =  k***   _The number of nodes each node is connected to. Also called nearest-neighbors_
+1. ***Index              =  i***   _A unique number to identify the nodes._
+2. ***Endurance (Bias)   =  k***   _This is the bias of an individual towards a party._
 3. ***Influence         =  p***   _This is the length of connection of the edges_
 4. ***Connection        =  p***   _This is the length of connection of the edges_
 
