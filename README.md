@@ -11,7 +11,7 @@ _(i) for linear of logarithmic voting function, the small scale variation is min
 
 _(ii) for periodic voting function, the small scale variations are sharp and oscillating, but in the long term the number of voters in each party roughly remains the same_ 
 
-_(iii) the degree of the graph does not seem to have a strong influence on the result, and _
+_(iii) the degree of the graph does not seem to have a strong influence on the result, and_
 
 _(iv) networks with higher small world probability tend to resist the alignment of voters towards a particular party for a longer time as compared to networks with lower small world probability._
 
