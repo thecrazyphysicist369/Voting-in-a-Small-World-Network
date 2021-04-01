@@ -44,7 +44,7 @@ This represents a single individual in the small world network. It is represente
 
 ### Voting Function
 
-A voting 
+A voting function tells the simulation how the bias of a person gets affected with respect to the influence value it's nearest neighbours has. We used 3 very fundamental types of voting function.
 
 ```
 b' = b + ∑ sign(i)*f(w(i,j))
