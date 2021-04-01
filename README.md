@@ -108,7 +108,9 @@ Give an example
 ```
 
 ## Results
+We ran multiple execution of each Voting model.
 ### Linear Voting
+
 
 ```
 
