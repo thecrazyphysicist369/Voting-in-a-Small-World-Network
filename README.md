@@ -113,7 +113,8 @@ We ran multiple execution of each Voting model. Displayed are one of those resul
 
 
 ```
-
+The bias of the population seemed to be slowly drifting and when the population tends to take
+a side, the entire network starts saturating to the maximum value.
 ```
 ![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lik5p5.png)
 
