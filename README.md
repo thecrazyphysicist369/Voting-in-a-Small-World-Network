@@ -108,7 +108,7 @@ Give an example
 ```
 
 ## Results
-We ran multiple execution of each Voting model.
+We ran multiple execution of each Voting model. Displayed are one of those results for each type.
 ### Linear Voting
 
 
