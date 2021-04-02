@@ -121,7 +121,7 @@ a side, the entire network starts saturating to the maximum value.
 ### Logarithmic Voting
 
 ```
-Describing Logarithmic Voting resutls.
+The bias of the population seems to have no effect. The population kept the same bias all throughout the simulation phase.
 ```
 ![P,K](https://github.com/thecrazyphysicist369/Voting-in-a-Small-World-Network/blob/master/Images/Lok5p5.png)
 
