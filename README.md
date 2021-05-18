@@ -1,6 +1,6 @@
 # Voting in a Watts-Strogatz Small-World-Network
 
-In this research project we simulated a two party majority voting scheme in a Wattz-Strogatz world network. Three different types of voting function were implemented and the results were compared.
+In this research project we simulated a two party majority voting scheme in a Wattz-Strogatz world network. Three different types of voting function were implemented and the results were compared. 1
 
 ### Abstract :
 Social network science and social interaction science is an interesting and steadily growing field of research in current time. Social network influences the lives of millions, and therefore the propagation of influence in such a network deserves study. In this paper, we have studied voting in a Watts-Strogatz small world network for two parties. In our model, each node has an initial bias towards one of the parties (or can be neutral) and are
